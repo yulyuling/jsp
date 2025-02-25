@@ -19,7 +19,7 @@
 		String db_pw = "test1234";
 		conn = DriverManager.getConnection(db_url, db_id, db_pw);
 		stmt = conn.createStatement();
-		out.println(" ");
+		out.println("연결됨");
 		
 		
 		} catch (ClassNotFoundException e){
